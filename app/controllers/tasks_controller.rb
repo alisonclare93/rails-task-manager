@@ -11,4 +11,8 @@ class TasksController < ApplicationController
       "not completed yet."
     end
   end
+
+  def new
+    @task = Task.new
+  end
 end
